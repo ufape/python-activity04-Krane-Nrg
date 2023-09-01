@@ -56,10 +56,12 @@ Aluno aprovado.
 
 """
 
+from library_problem_1 import media
 
 def main():
-    pass  # your code here
-
+    print("=-=-=-=-=-=-=-=-=-=")
+    media()
+    print("=-=-=-=-=-=-=-=-=-=")
 
 if __name__ == '__main__':
     main()
