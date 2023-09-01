@@ -1,7 +1,7 @@
 def divisao():
 
-    x = int(input("Digite o valor 1: "))
-    y = int(input("Digite o valor 2: "))
+    x = 20
+    y = 10
 
     if x > y:
         x,y = y,x
