@@ -11,4 +11,4 @@ def divisao():
         if i % 5 == 2 or i % 5 == 3:
             numeros.append(i)
 
-    print("Os números são..: {}".format(" ".join(str(n) for n in numeros))
+    print("Os números são..: {}".format(" ".join(str(n) for n in numeros)))
