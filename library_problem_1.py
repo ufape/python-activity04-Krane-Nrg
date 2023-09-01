@@ -1,9 +1,9 @@
 def media ():
 
-    N1 = float(input("Digite a nota 1: "))
-    N2 = float(input("Digite a nota 2: "))
-    N3 = float(input("Digite a nota 3: "))
-    N4 = float(input("Digite a nota 4: "))
+    N1 = 2.0
+    N2 = 3.0
+    N3 = 4.0
+    N4 = 1.0
     media = (n1 * 2 + n2 * 3 + n3 * 4 + n4 * 1) / 10
 
     if media >= 7.0:
