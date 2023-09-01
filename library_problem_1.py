@@ -4,7 +4,7 @@ def media ():
     N2 = 3.0
     N3 = 4.0
     N4 = 1.0
-    media = (n1 * 2 + n2 * 3 + n3 * 4 + n4 * 1) / 10
+    media = (N1 * 2 + N2 * 3 + N3 * 4 + N4 * 1) / 10
 
     if media >= 7.0:
         print(f"Media: {media:.1f}")
