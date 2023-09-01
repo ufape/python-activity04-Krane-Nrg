@@ -28,10 +28,12 @@ Os números são..: 12 13 17
 
 """
 
+from library_problem_3 import soma
 
 def main():
-    pass  # your code here
-
+    print("=-=-=-=-=-=-=-=-=-=")
+    soma()
+    print("=-=-=-=-=-=-=-=-=-=")
 
 if __name__ == '__main__':
     main()
