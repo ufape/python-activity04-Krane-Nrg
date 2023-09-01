@@ -1,14 +1,17 @@
 def media ():
 
-    N1 = 2.0
-    N2 = 3.0
-    N3 = 4.0
-    N4 = 1.0
-    media = (N1 * 2 + N2 * 3 + N3 * 4 + N4 * 1) / 10
+    n1 = float(input("Digite a nota 1: ")
+    n2 = float(input("Digite a nota 2: ")
+    n3 = float(input("Digite a nota 3: ")
+    n4 = float(input("Digite a nota 4: ")
+    media = (n1 * 2 + n2 * 3 + n3 * 4 + n4 * 1) / 10
 
     if media >= 7.0:
         print(f"Media: {media:.1f}")
         print("Aluno aprovado.")
+    elif media < 5.0:
+        print(f"Media: {media:.1f}")
+        print("Aluno reprovado")
     else:
         print(f"Media: {media:.1f}")
         print("Aluno em exame.")
